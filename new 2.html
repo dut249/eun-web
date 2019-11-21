@@ -22,7 +22,7 @@ color: black;}
 color: black;}
 #grid{
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 150px 1fr;
 }
 #grid #data{
   padding-left: 20px;
@@ -43,6 +43,13 @@ img.w{
 position: relative;
   left: 1100px;
 transform: rotate(-90deg);}
+@media (max-width:800px) {
+  #grid{display: block;}
+  h1{border-bottom: none;}
+  #list{border-right: none;}
+  #grid #data{padding-left: 0px;}
+
+}
     </style>
   </head>
   <body>
