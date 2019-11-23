@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body{margin: 0;}
+      h1{border-bottom: 1px solid gray;
+      margin: 0;
+    padding: 20px;}
+    .b{text-decoration: none;
+    color: black;}
+    .c{text-decoration: none;
+    color: black;}
+    .cc{text-decoration: none;
+    color: black;}
+    .ccc{text-decoration: none;
+    color: black;}
+    #list{border-right: 1px solid gray;
+    margin: 10px;
+  padding: 0px;
+  width: 130px;}
+  #grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+  #grid #data{
+    padding-left: 20px;}
+#data{display: grid;
+grid-template-columns: 250px 250px;}
+.update{display: grid;
+padding-bottom: 20px;
+}
+@media (max-width:800px) {
+  #grid{display: block;}
+  h1{border-bottom: none;}
+  #list{border-right: none;}
+  #grid #data{padding-left: 0px;}
+
+}
+    </style>
+  </head>
+  <body>
+    <h1><a href="index.html" class="b">내가 좋아하는 것들</a></h1>
+<div id="grid">
+  <div id="list">
+    <ul>
+      <li><a href="1.html" class="c">몽구</a></li>
+    <li><a href="2.html"class="cc">영화</a></li>
+    <li><a href="3.html"class="ccc">오버워치</a></li>
+  </ul>
+</div>
+<div id="data">
+  <div><h2>오버워치</h2>
+    <p>제작:블리자드 엔터테인먼트</p><p>출시:2016.05.24</p><p>등급:12세 이용가, 15세 이용가</p><p>가격:22,500원</p></div>
+    <div><img src="오버워치.jpg" height="300px" width="400px"></div>
+<div class="update">
+    <h2>최신 업데이트</h2>
+    <p><img src="오버워치222.jpg" height="300px" width="400px"></p>
+    <p>2/2/2의 역할 고정 배타
+플레이어들에게 자신이 하고 싶어하는 역할을 고를 권한을 주며 돌격 영웅 2명, 지원 2명, 공격 2명으로 팀을 구성하게 된다.
+역할 고정 배타는 경기의 수준을 높이며 팀원 간의 분위기를 긍정적으로 바꿔주는 역할이 될 것으로 전망된다.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tiO5EUvHetU"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+</div>
+</body>
+</html>
