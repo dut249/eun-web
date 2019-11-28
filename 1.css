@@ -1,0 +1,36 @@
+body{margin: 0;}
+      h1{border-bottom: 1px solid gray;
+      margin: 0;
+    padding: 20px;
+  font-family: "나눔고딕"}
+    .b{text-decoration: none;
+    color: black;}
+    #list{border-right: 1px solid gray;
+    margin: 10px;
+  padding: 0px;
+width: 130px;}
+.c{text-decoration: none;
+color: #94eb3e;}
+.cc{text-decoration: none;
+color: black;}
+.ccc{text-decoration: none;
+color: black;}
+.fuck{transform: rotate(90deg);}
+#grid{
+  display: grid;
+  grid-template-columns: 200px 1fr;;
+}
+#grid #data{padding-left: 20px;}
+#data{
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+.p{display: grid;}
+.pp{display: grid;}
+@media (max-width:800px) {
+  #grid{display: block;}
+  h1{border-bottom: none;}
+  #list{border-right: none;}
+  #grid #data{padding-left: 0px;}
+
+}
